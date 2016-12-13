@@ -1,7 +1,7 @@
 {
   "name": "wikitude-types",
   "author": "Brendan Ingham",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "types": "./lib/main.d.ts",
   "description": "Types for the WikiTude Javascript Module 'AR'",
   "main": "lib/main.d.ts",
