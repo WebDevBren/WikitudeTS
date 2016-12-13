@@ -1,0 +1,6 @@
+{
+    "name": "wikitude-types",
+    "author": "Brendan Ingham <brendan.ingham13@gmail.com",
+    "version": "1.0.0",
+    "types": "./lib/main.d.ts"
+}
