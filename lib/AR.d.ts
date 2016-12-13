@@ -1,12 +1,14 @@
 export declare module AR {
 
+    const CONST : any;
+
     interface GeoObjectOptions {
         enabled?: boolean;
         renderingOrder?: number;
         drawables?: { cam?: Drawable[], radar?: Drawable2D[], indicator?: Drawable2D[] }
         onEnterFieldOfVision?: () => void;
         onExitFieldOfVision?: () => void;
-        onClick: () => void;
+        onClick?: () => void;
     }
 
     interface DrawableOptions {
@@ -82,8 +84,8 @@ export declare module AR {
         scale?: { x: number, y: number, z: number };
         translate?: { x: number, y: number, z: number };
         onClick?: () => void;
-        onLoaded: () => void;
-        onError: () => void;
+        onLoaded?: () => void;
+        onError?: () => void;
     }
 
     interface TrackerOptions {
@@ -95,23 +97,23 @@ export declare module AR {
     }
 
     interface HtmlDrawableOptions extends ImageDrawableOptions {
-        onLoaded: () => void,
-        onError: () => void,
-        viewportWidth: number,
-        viewportHeight: number,
-        backgroundColor: string,
-        clickThroughEnabled: boolean,
-        allowDocumentLocationChanges: boolean,
-        onDocumentLocationChanged: () => {};
+        onLoaded?: () => void,
+        onError?: () => void,
+        viewportWidth?: number,
+        viewportHeight?: number,
+        backgroundColor?: string,
+        clickThroughEnabled?: boolean,
+        allowDocumentLocationChanges?: boolean,
+        onDocumentLocationChanged?: () => {};
     }
 
     interface PositionableOptions {
-        enabled: boolean,
-        renderingOrder: number,
-        onEnterFieldOfVision: () => void,
-        onExitFieldOfVision: () => void,
-        onClick: () => void,
-        drawables: { cam: Drawable[] }
+        enabled?: boolean,
+        renderingOrder?: number,
+        onEnterFieldOfVision?: () => void,
+        onExitFieldOfVision?: () => void,
+        onClick?: () => void,
+        drawables?: { cam: Drawable[] }
     }
 
     interface VideoDrawableOptions extends DrawableOptions {
