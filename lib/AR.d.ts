@@ -1,4 +1,4 @@
-declare module AR {
+export declare module AR {
 
     interface GeoObjectOptions {
         enabled?: boolean;

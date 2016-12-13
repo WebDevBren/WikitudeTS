@@ -1,1 +1,1 @@
-import './AR.d';
+export * from './AR.d';
