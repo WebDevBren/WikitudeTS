@@ -1,6 +1,25 @@
 {
-    "name": "wikitude-types",
-    "author": "Brendan Ingham <brendan.ingham13@gmail.com",
-    "version": "1.0.0",
-    "types": "./lib/main.d.ts"
+  "name": "wikitude-types",
+  "author": "Brendan Ingham",
+  "version": "1.0.0",
+  "types": "./lib/main.d.ts",
+  "description": "Types for the WikiTude Javascript Module 'AR'",
+  "main": "lib/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDevBren/WikitudeTS.git"
+  },
+  "keywords": [
+    "typescript",
+    "wikitude",
+    "ar"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebDevBren/WikitudeTS/issues"
+  },
+  "homepage": "https://github.com/WebDevBren/WikitudeTS#readme"
 }
